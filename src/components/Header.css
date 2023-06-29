@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.title {
+    font-size: 17px;
+}
+.mini {
+    width: 50px;
+    clip-path: circle();
+}
