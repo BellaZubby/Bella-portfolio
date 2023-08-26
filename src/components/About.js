@@ -19,11 +19,10 @@ function About() {
             <div className='text-gray-900 my-3'>
               <p className='md:lg text-sm text-justify leading-7 w-11/12 mx-auto'>
                 My name is Nwankwo Nzubechukwu Amabella, a graduate of Parasitology and
-                Entomology from Nnamdi Azikiwe university Awka. My flare for technology
-                drove me into web development. I am a very enthusiastic
-                frontend developer skilled in various tools and frameworks such as HTML5,
+                Entomology from Nnamdi Azikiwe university Awka. My love for technology
+                drove me into web development. I am an enthusiastic frontend developer skilled in various tools and frameworks such as HTML5,
                 CSS3, Javascript, React js, tailwind css, and bootstrap. I am very much open
-                to opportunities that allows me expand my knowledge and help me attain the level
+                to opportunities that allows me expand my knowledge and helps me attain the level
                 of a highly skilled and professional fullstack developer.
               </p>
               <div className='flex mt-10 items-center gap-7'>
