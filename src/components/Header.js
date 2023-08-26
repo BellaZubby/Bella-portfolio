@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import image from './images/ME.jpg'
+import image from './images/profileImg.jpg';
 import './Header.css'
 
 function Header() {
@@ -26,7 +26,7 @@ function Header() {
         <div className='mx-5 flex items-center gap-2'>
           <img className='mini'src={image} alt='photo'/>
           <h4 className='text-2xl uppercase font-bold'>
-            B<span className='text-rose-700'>ell</span>a
+            B<span className='text-orange-400'>ell</span>a
           </h4>
         </div>
         <div className={`${sticky ? 'md:bg-white/0 bg-white' : 'bg-white'} text-gray-900 md:block 
@@ -34,7 +34,7 @@ function Header() {
           <ul className='flex items-center gap-1 py-2 text-lg'>
             {
               menuLinks ?.map((menu, i) => (
-                  <li key={i} className='px-6 hover:text-rose-700'>
+                  <li key={i} className='px-6 hover:text-orange-500'>
                     <a href={menu?.link} className='text-sm'>{menu?.name}</a>
                   </li>
               ))

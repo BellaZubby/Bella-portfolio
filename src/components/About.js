@@ -10,7 +10,7 @@ function About() {
     <section className='py-10 text-white' id='about'>
       <div className='text-center mt-8 bg-white'>
         <h3 className='md:text-3xl text-xl font-semibold text-black pt-5'>
-          About <span className='text-rose-700'>Me</span>
+          About <span className='text-orange-400'>Me</span>
         </h3>
         <p className='text-gray-900 my-3 text-xl'>My introduction</p>
         <div className='flex md:flex row flex-col-reverse items-center
@@ -32,7 +32,7 @@ function About() {
                     <div key={content.text}>
                       <h3 className='md:text-2xl text-2xl font-semibold text-black'>
                         {content.count}
-                        <span className='text-rose-700'>+</span>{''}
+                        <span className='text-orange-400'>+</span>{''}
                       </h3>
                       <span className='md:text-base text-xl'>{content.text}</span>
                     </div>

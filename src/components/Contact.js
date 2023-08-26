@@ -25,10 +25,10 @@ function Contact() {
     {logo: <FaWhatsapp/>, text: '+234 802 424 8144'},
   ]
   return (
-    <section id='contact' className='py-10 px-3 bg-red-950 text-white'>
+    <section id='contact' className='py-10 px-3 bg-slate-900 text-white'>
       <div className='text-center mt-8'>
         <h3 className='md:text-3xl text-xl font-semibold'>
-          Contact <span className='text-rose-700'>Me</span>
+          Contact <span className='text-orange-400'>Me</span>
         </h3>
         <p className='text-gray-300 mt-3 md:text-lg text-sm'>Get in touch</p>
         <div 
@@ -45,7 +45,7 @@ function Contact() {
               contact_info.map((contact, i) => (
                 <div key={i} className='flex flex-wrap gap-4 w-fit items-center'>
                   <div className='min-w-[1.5rem] min-h-[1.5rem] flex items-center
-                  justify-center text-white bg-rose-700 rounded-full'>
+                  justify-center text-white bg-orange-500 rounded-full'>
                     {contact.logo}
                   </div>
                   <p className='text-sm'>{contact.text}</p>

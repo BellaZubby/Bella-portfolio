@@ -1,6 +1,6 @@
 import React from 'react'
 import'./Hero.css';
-import hero from './images/Hero.jpeg';
+import hero from './images/profileImg.jpg';
 
 function Hero() {
   const social_media = [
@@ -8,7 +8,6 @@ function Hero() {
     {logo:'logo-github', link:'https://github.com/BellaZubby'},
     {logo:'logo-twitter', link:'https://www.twitter.com/Nwankwo_Bella20'},
     {logo:'logo-linkedin', link:'https://www.linkedin.com/in/nwankwo-nzubechukwu-29014724a'},
-
   ];
   return (
     <section id='home' className='min-h-screen flex py-10 md:flex-row flex-col 
@@ -20,7 +19,7 @@ function Hero() {
           <div className='md:text-left text-center'>
             <h1 className='md:text-3xl text-2xl md:leading-normal 
             leading-10 text-white font-bold'>
-              <span className='text-rose-700 md:text-5xl text-3xl'>
+              <span className='text-orange-400 md:text-5xl text-3xl'>
                 Hello!
                 <br/>
               </span>
