@@ -14,7 +14,7 @@ function Project() {
       photo: project2, 
       title:'my portfolio', 
       github:'https://github.com/BellaZubby/Bella-portfolio.git', 
-      live:''
+      live:'https://bella-portfolio.vercel.app'
     },
   ]
   return (

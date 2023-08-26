@@ -33,7 +33,7 @@ function About() {
                         {content.count}
                         <span className='text-orange-400'>+</span>{''}
                       </h3>
-                      <span className='md:text-base text-xl'>{content.text}</span>
+                      <span className='text:xl md:text-base'>{content.text}</span>
                     </div>
                   ))
                 }

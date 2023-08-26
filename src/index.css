@@ -24,3 +24,7 @@ input,textarea {
 ::selection {
   @apply bg-rose-700;
 }
+.footer {
+  font-size: 10px;
+}
+
