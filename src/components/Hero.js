@@ -26,7 +26,7 @@ function Hero() {
               My Name is <span>Amabella</span>
             </h1>
             <h4 className='md:text-xl text-sm md:leading-mormal leading-5 mt-4 
-            font-bold text-gray-300'>React Developer || Customer support || Virtual assistant</h4>
+            font-bold text-gray-300'>React Developer</h4>
             <button className='btn-primary mt-8'>Contact Me</button>
             <div className='mt-8 text-2xl flex items-center md:justify-start justify-center gap-5'>
               {
