@@ -15,7 +15,7 @@ body {
 }
 
 input,textarea {
-  @apply bg-gray-400 outline-none rounded-lg p-1.5;
+  @apply bg-slate-900 rounded-lg p-1.5;
 }
 ::placeholder {
   @apply text-sm;

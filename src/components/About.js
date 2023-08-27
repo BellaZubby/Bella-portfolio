@@ -12,7 +12,7 @@ function About() {
         <h3 className='md:text-3xl text-xl font-semibold text-black pt-5'>
           About <span className='text-orange-400'>Me</span>
         </h3>
-        <p className='text-gray-900 my-3 text-xl'>My introduction</p>
+        <p className='text-gray-900 my-3 text-sm'>My introduction</p>
         <div className='flex md:flex row flex-col-reverse items-center
          md:gap-6 gap-12 px-10 max-w-6xl mx-auto'>
           <div className='p-2'>
